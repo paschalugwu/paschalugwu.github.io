@@ -256,7 +256,6 @@ body {
 /* utility classes */
 .greet-heading { 
     font-size: 2.0rem;
-    color: #ccc; 
     font-weight: lighter; 
     margin: 0; 
     letter-spacing: 1px; 
@@ -264,7 +263,6 @@ body {
 
 .my-heading { 
     font-size: 2.5rem;
-    color: #ccc; 
     margin: 0; 
 } 
 
