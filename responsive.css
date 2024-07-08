@@ -16,7 +16,7 @@
         right: 0; 
         padding: 0 3rem; 
         top: 75px; 
-        background-image: linear-gradient(180deg, #74D7BB, #53C8B6, #35A99C); 
+        background-image: linear-gradient(180deg, #27ae61, #f5b7b1); /* Updated */
         display: none; 
         transition: all 0.25s; 
     } 
@@ -63,11 +63,11 @@
         justify-content: center; 
         color: #fff; 
         background-image: radial-gradient(circle, rgb(15 14 14 / 30%),
-          rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('./Images/heroImg3.avif') 
+          rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('./Images/heroImg3.avif'); 
     } 
 
     .sub-heading { 
-        color: #fff9f9cc; 
+        color: #ffffff; /* Updated */
     } 
 
     .hero .intro-buttons { 
@@ -87,7 +87,7 @@
         right: 0; 
         padding: 0 2rem; 
         top: 75px; 
-        background-image: linear-gradient(180deg, #35A99C, #53C8B6, #74D7BB); 
+        background-image: linear-gradient(180deg, #27ae61, #f5b7b1); /* Updated */
         display: none; 
         transition: all 0.25s; 
     } 
