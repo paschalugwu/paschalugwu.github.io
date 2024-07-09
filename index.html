@@ -503,49 +503,55 @@
         </div> 
     </section>
 
+    Using Google Forms is a straightforward option to collect and manage form submissions. Here’s how you can integrate a Google Form into your website for collecting messages:
+
+    Create a Google Form:
+        Go to Google Forms and create a new form.
+        Add fields for Name, Email, Phone (optional), Message, etc.
+        Customize the form as per your requirements.
+
+    Get the Form URL:
+        After creating the form, click on the "Send" button (the paper plane icon) in Google Forms.
+        Choose the link icon to get the direct link to the form.
+        Copy the link provided.
+
+    Embed the Form in Your Website:
+        Paste the copied URL into the action attribute of your HTML form.
+
+Here’s how you can modify your HTML code to use the Google Form:
+
+html
+
     <!-- Contact me section -->
     <section class="contact" id="contact"> 
         <div class="contact-heading"> 
             <h1 class="my-heading text-center">Contact Me</h1> 
         </div> 
-        <div class="contact-content"> 
-            <div class="contact-form-container"> 
-                <h1 class="greet-heading">Get In Touch</h1> 
-                <form class="contact-form"> 
-                    <input class="form-controls" type="text"
-                        placeholder="Your Name"> 
-                    <input class="form-controls" type="text"
-                        placeholder="Your Email"> 
-                    <input class="form-controls" type="text"
-                        placeholder="Your Phone"> 
-                    <textarea class="form-controls"
-                            placeholder="Write your message"
-                            name="message" id="" cols="30"
-                            rows="10"> 
-                    </textarea> 
-                    <input class="form-btn btn common-btn"
-                        type="submit" value="Send Message"> 
-                </form> 
+            <div class="contact-content"> 
+                <div class="contact-form-container"> 
+                    <h1 class="greet-heading">Get In Touch</h1> 
+                    <form class="contact-form" action="PASTE_YOUR_GOOGLE_FORM_URL_HERE" method="POST"> 
+                        <input class="form-controls" type="text" name="entry.123456789" placeholder="Your Name" required> 
+                        <input class="form-controls" type="email" name="entry.987654321" placeholder="Your Email" required> 
+                        <input class="form-controls" type="text" name="entry.567891234" placeholder="Your Phone"> 
+                        <textarea class="form-controls" name="entry.345678912" placeholder="Write your message" cols="30" rows="10" required></textarea> 
+                        <input class="form-btn btn common-btn" type="submit" value="Send Message"> 
+                    </form> 
+                </div> 
             </div> 
             <div class="contact-details"> 
                 <h1 class="greet-heading">My Contact Details</h1> 
                 <div class="details"> 
                     <h5 class="contact-heading">EMAIL</h5> 
-                    <p class="contact-text">example@gmail.com</p> 
+                    <p class="contact-text">ugwupaschal@gmail.com</p> 
                 </div> 
                 <div class="details"> 
                     <h5 class="contact-heading">PHONE</h5> 
-                    <p class="contact-text">+91 0123456789</p> 
-                </div> 
-                <div class="details"> 
-                    <h5 class="contact-heading">FAX</h5> 
-                    <p class="contact-text">+91 0123456789</p> 
+                    <p class="contact-text">+234 816 629 7095</p> 
                 </div> 
                 <div class="details"> 
                     <h5 class="contact-heading">ADDRESS</h5> 
-                    <p class="contact-text">San Francisco, CA</p> 
-                    <p>4th Floor8 Lower</p> 
-                    <p>San Francisco street, M1 50F</p> 
+                    <p class="contact-text">Lagos State, Nigeria/p>
                 </div> 
             </div> 
         </div> 
@@ -557,34 +563,29 @@
             <h4> 
                 Copyright © 2023 All rights reserved | 
                 This portfolio website template is created 
-                by GeeksforGeeks. 
+                by Paschal Ugwu. 
             </h4> 
             <div class="social-links"> 
                 <div class="footer-menu"> 
                     <ul class="footer-menu-list"> 
                         <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-facebook-f"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-twitter"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-instagram"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
+                            <a class="footer-links" href="https://www.linkedin.com/in/paschal-ugwu-52abb6229/" target="_blank"> 
                                 <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://wa.me/qr/KH57GGJ76NOPP1" target="_blank"> 
+                                <i class="fab fa-whatsapp"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://github.com/paschalugwu" target="_blank"> 
+                                <i class="fab fa-github"></i> 
                             </a> 
                         </li> 
                     </ul> 
                 </div> 
-            </div> 
+            </div>             
         </div> 
     </footer> 
 
