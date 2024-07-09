@@ -186,24 +186,15 @@ body {
     justify-content: space-between; 
 } 
 
-.contact-form-container { 
-    width: 50%; 
-} 
+.contact-form-container {
+    width: 50%;
+    margin: auto; /* Optional: to center the container */
+}
 
-.contact-form { 
-    display: flex; 
-    flex-direction: column; 
-} 
-
-.contact-form .form-controls { 
-    width: 80%; 
-    padding: 10px 0; 
-    margin: 1.67rem 0; 
-} 
-
-.contact-form .form-btn { 
-    width: 83%; 
-} 
+.contact-form-iframe {
+    width: 100%; /* Will be 50% of parent container */
+    height: 554px;
+}
 
 .contact-details { 
     width: 50%; 
