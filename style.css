@@ -104,35 +104,28 @@ body {
     padding: 5rem 5rem 5rem 1rem; 
 } 
 
-.projects {
-    margin: 4.8rem 0;
-    padding: 0 5rem;
-    display: flex;
-    justify-content: space-between; /* Ensures equal spacing between cards */
-    flex-wrap: wrap; /* Allows cards to wrap to the next line */
-}
+/* Portfolio section styles */
+.projects { 
+    margin: 4.8rem 0; 
+    padding: 0 5rem; 
+} 
 
-.port-card {
-    width: calc(33.33% - 20px); /* Adjust percentage width as needed */
-    margin-bottom: 20px; /* Adjust margin between cards */
-    box-sizing: border-box; /* Ensures padding and border are included in width */
-    padding: 0 !important;
-    background: none !important;
-    border: 2px solid #000;
-}
+.port-card { 
+    padding: 0 !important; 
+    background: none !important; 
+    border: 2px solid #000; 
+} 
 
-.port-card .image {
-    width: 100%;
-    overflow: hidden; /* Ensures the image doesn't overflow */
-}
+.port-card .image { 
+    width: 100%; 
+} 
 
-.port-card .image img {
-    height: 200px;
-    width: 100%;
-    object-fit: cover; /* Maintains aspect ratio and covers the entire container */
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
+.port-card .image img { 
+    height: 200px; 
+    width: 100%; 
+    border-top-right-radius: 20px; 
+    border-top-left-radius: 20px; 
+} 
 
 /* Services section styles */
 .services { 
