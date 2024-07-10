@@ -352,3 +352,23 @@ body {
 .github-button:active {
     background-color: #000; /* Even darker gray when active */
 }
+
+/* education section styles */
+.education { 
+    padding: 0 5rem; 
+} 
+
+.education-content { 
+    display: flex; 
+    margin: 3rem 0; 
+    justify-content: space-between; 
+} 
+
+.education-form-iframe {
+    width: 100%;
+    height: 100vh; /* Adjust height as needed for mobile view */
+}
+
+.education-details { 
+    width: 50%; 
+} 
