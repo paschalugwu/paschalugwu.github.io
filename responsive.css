@@ -170,25 +170,19 @@
     .footer-list-items { 
         margin: 0; 
     } 
-
-    /* education section styles */
+    
     .education { 
         padding: 0; 
-        text-align: center; /* Center align the entire section */
     } 
 
     .education-content { 
-        display: flex;
         flex-direction: column; 
         align-items: center; 
         gap: 2rem; 
-        margin: 3rem 0;
-        text-align: center; /* Center align the content */
     } 
 
     .education-form-container { 
         width: 80%; 
-        max-width: 600px; /* Set a max-width for larger screens */
     } 
 
     .education-form .form-controls { 
@@ -201,27 +195,5 @@
 
     .education-details { 
         width: 80%; 
-        max-width: 600px; /* Set a max-width for larger screens */
-        margin: 1rem; /* Add some margin for spacing */
-        text-align: left; /* Align text to the left within each block */
-    }
-
-    /* Add media query for smaller screens */
-    @media (max-width: 768px) {
-        .education { 
-            padding: 0 1rem; 
-        } 
-
-        .education-content { 
-            gap: 1rem; /* Adjust gap for smaller screens */
-        } 
-
-        .education-details { 
-            width: 100%; /* Use full width for smaller screens */
-        }
-
-        .education-form-container { 
-            width: 100%; /* Use full width for smaller screens */
-        }
     }
 }
