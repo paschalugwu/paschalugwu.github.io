@@ -356,12 +356,21 @@ body {
 /* education section styles */
 .education { 
     padding: 0 5rem; 
+    text-align: center; /* Center align the entire section */
 } 
 
 .education-content { 
     display: flex; 
     margin: 3rem 0; 
-    justify-content: space-between; 
+    justify-content: center; /* Center the content horizontally */
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+} 
+
+.education-details { 
+    width: 100%; /* Use full width for smaller screens */
+    max-width: 600px; /* Set a max-width for larger screens */
+    margin: 1rem; /* Add some margin for spacing */
+    text-align: left; /* Align text to the left within each block */
 } 
 
 .education-form-iframe {
@@ -369,6 +378,18 @@ body {
     height: 100vh; /* Adjust height as needed for mobile view */
 }
 
-.education-details { 
-    width: 50%; 
-} 
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    .education { 
+        padding: 0 1rem; 
+    } 
+
+    .education-content { 
+        flex-direction: column; 
+        align-items: center; 
+    } 
+
+    .education-details { 
+        width: 100%; /* Use full width for smaller screens */
+    }
+}
