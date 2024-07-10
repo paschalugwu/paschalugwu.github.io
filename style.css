@@ -252,20 +252,6 @@ body {
     margin: 0; 
 } 
 
-.intro-greet-heading { 
-    font-size: 2.0rem;
-    font-weight: lighter; 
-    margin: 0; 
-    color: #fff9f9cc; 
-    letter-spacing: 1px; 
-} 
-
-.intro-my-heading { 
-    font-size: 2.5rem;
-    color: #fff9f9cc; 
-    margin: 0; 
-} 
-
 .sub-heading { 
     margin: 0; 
     font-size: 1.0rem; 
