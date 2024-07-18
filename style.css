@@ -372,3 +372,12 @@ body {
 .education-details { 
     width: 50%; 
 } 
+
+/* styles.css */
+section {
+    display: none;
+}
+
+#home {
+    display: block;
+}
