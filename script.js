@@ -17,3 +17,22 @@ hamburger.addEventListener('click', function () {
         menu.style.display = "block"
     } 
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll(".links");
+
+    links.forEach(link => {
+        link.addEventListener("click", function() {
+            const targetId = this.dataset.target;
+            const sections = document.querySelectorAll("details");
+
+            sections.forEach(section => {
+                if (section.id === targetId) {
+                    section.setAttribute("open", "true");
+                } else {
+                    section.removeAttribute("open");
+                }
+            });
+        });
+    });
+});
