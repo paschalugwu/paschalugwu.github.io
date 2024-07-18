@@ -17,16 +17,3 @@ hamburger.addEventListener('click', function () {
         menu.style.display = "block"
     } 
 });
-
-function showSection(sectionId) {
-    // Get all sections
-    const sections = document.querySelectorAll('section');
-
-    // Loop through all sections and hide them
-    sections.forEach(section => {
-        section.style.display = 'none';
-    });
-
-    // Show the selected section
-    document.getElementById(sectionId).style.display = 'block';
-}
