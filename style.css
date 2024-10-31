@@ -136,6 +136,7 @@ body {
 
 .port-card {
     width: 360px;
+    height: 480px; /* Fixed height for uniform cards */
     background-color: var(--shadowwhiteperalta-white);
     border-radius: 20px;
     padding: 25px;
