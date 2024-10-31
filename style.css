@@ -289,7 +289,8 @@ body {
 .social-links { 
     display: flex; 
     align-items: center; 
-    justify-content: center; 
+    justify-content: center;
+    margin: 0 auto; 
 } 
 
 .footer-menu { 
