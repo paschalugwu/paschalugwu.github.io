@@ -219,9 +219,7 @@ body {
     justify-content: center; 
     border-radius: 20px; 
     background-image: linear-gradient(#74D7BB, #53C8B6, #35A99C); 
-    padding: 1rem; 
-    width: 100px; /* Fixed width */ 
-    height: 200px; /* Fixed height */
+    padding: 1rem;
 } 
 
 .icon { 
