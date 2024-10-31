@@ -127,6 +127,11 @@ body {
     margin-bottom: 40px;
 }
 
+.portfolio-content { 
+    margin: auto; 
+    padding: 0 1rem;
+}
+
 .portfolio-content .my-row {
     display: flex;
     justify-content: space-between;
