@@ -141,7 +141,7 @@ body {
 
 .port-card {
     width: 300px;
-    height: 600px; /* Fixed height for uniform cards */
+    height: 480px; /* Fixed height for uniform cards */
     background-color: var(--shadowwhiteperalta-white);
     border-radius: 20px;
     padding: 25px;
@@ -217,8 +217,6 @@ body {
 } 
 
 .my-card { 
-    width: 300px;
-    height: 300px;
     text-align: center; 
     display: flex; 
     flex-direction: column; 
