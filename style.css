@@ -206,17 +206,43 @@ body {
     padding: 0 5rem; 
 } 
 
-.my-row { 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    margin: 2rem 0; 
-} 
+.services-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem;
+}
 
-.my-row .my-col { 
-    text-align: center; 
-    width: 30%; 
-} 
+.services-content::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.scroll-button {
+    background-color: #74D7BB;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.scroll-button:hover {
+    background-color: #53C8B6;
+}
+
+.my-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.my-row .my-col {
+    text-align: center;
+    width: 300px; /* Adjusted to match card width */
+    flex: 0 0 auto; /* Prevent shrinking */
+}
 
 .service-my-card { 
     width: 300px;

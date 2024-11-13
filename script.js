@@ -17,3 +17,17 @@ hamburger.addEventListener('click', function () {
         menu.style.display = "block"
     } 
 });
+
+function scrollLeft() {
+    document.querySelector('.services-content').scrollBy({
+        left: -300, // Adjust the value as needed
+        behavior: 'smooth'
+    });
+}
+
+function scrollRight() {
+    document.querySelector('.services-content').scrollBy({
+        left: 300, // Adjust the value as needed
+        behavior: 'smooth'
+    });
+}
